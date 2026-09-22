@@ -2,13 +2,13 @@
   "nodes": [
     {
       "id": "dc4f635f303e1fa4",
-      "x": -700,
-      "y": -500,
+      "type": "text",
+      "text": "# Production\n![MixPre 6 II + Tentacle Sync  2025 — Josiah Archive](https://www.youtube.com/watch?v=mJaOx4VMi60)\n\n![How to Be a Sound Mixer  On-Set Audio Masterclass — Deity Microphones](https://youtu.be/JnOBiYshAa8?si=ynP-FUNyakhO33Ep)\n",
+      "x": -720,
+      "y": -520,
       "width": 640,
       "height": 1120,
-      "color": "6",
-      "type": "text",
-      "text": "# Production\n![MixPre 6 II + Tentacle Sync  2025 — Josiah Archive](https://www.youtube.com/watch?v=mJaOx4VMi60)\n\n![How to Be a Sound Mixer  On-Set Audio Masterclass — Deity Microphones](https://youtu.be/JnOBiYshAa8?si=ynP-FUNyakhO33Ep)\n"
+      "color": "6"
     }
   ],
   "edges": []
