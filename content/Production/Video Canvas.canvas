@@ -1,13 +1,14 @@
 {
   "nodes": [
     {
-      "id": "73ac1887d82e8e6d",
-      "x": -540,
-      "y": -240,
-      "width": 420,
-      "height": 260,
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=mJaOx4VMi60"
+      "id": "dc4f635f303e1fa4",
+      "x": -700,
+      "y": -500,
+      "width": 640,
+      "height": 1120,
+      "color": "6",
+      "type": "text",
+      "text": "# Production\n![MixPre 6 II + Tentacle Sync  2025 — Josiah Archive](https://www.youtube.com/watch?v=mJaOx4VMi60)\n\n![How to Be a Sound Mixer  On-Set Audio Masterclass — Deity Microphones](https://youtu.be/JnOBiYshAa8?si=ynP-FUNyakhO33Ep)\n"
     }
   ],
   "edges": []
