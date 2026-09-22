@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: josiah-gv.github.io/sound-specialist-resources
+  baseUrl: sound.josiahvaughan.com
   ignorePatterns:
     - private
     - templates
