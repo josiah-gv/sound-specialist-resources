@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "id": "920b0e738d2ebb12",
+      "type": "text",
+      "text": "# Mixing",
+      "x": -1020,
+      "y": -600,
+      "width": 480,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "26dd0017d2422f97",
+      "type": "link",
+      "url": "https://youtu.be/mJaOx4VMi60",
+      "x": -1020,
+      "y": -480,
+      "width": 480,
+      "height": 260
+    }
+  ],
+  "edges": []
+}
