@@ -54,7 +54,7 @@ jobs:
           path: |
             quartz-engine/node_modules
             quartz-engine/.quartz/plugins
-          key: quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-\${{ hashFiles('quartz.lock.json') }}
+          key: quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-${{ hashFiles('quartz.lock.json') }}
           restore-keys: |
             quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-
 
@@ -67,6 +67,14 @@ jobs:
           rm -rf quartz-engine/content
           ln -s "$GITHUB_WORKSPACE/content" quartz-engine/content
           cp quartz.config.yaml quartz.lock.json quartz-engine/
+          if [ -d "quartz/static" ]; then
+            mkdir -p quartz-engine/quartz/static
+            cp -r quartz/static/. quartz-engine/quartz/static/
+          fi
+          if [ -d "quartz/styles" ]; then
+            mkdir -p quartz-engine/quartz/styles
+            cp -r quartz/styles/. quartz-engine/quartz/styles/
+          fi
 
       - name: Install dependencies
         if: steps.quartz-deps-cache.outputs.cache-hit != 'true'
