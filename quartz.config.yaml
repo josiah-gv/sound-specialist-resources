@@ -262,6 +262,11 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: quartz/plugins/emitters/assets.ts
+    enabled: true
+    options:
+      publishAssets: referenced
+    order: 50
 layout:
   groups:
     toolbar:
