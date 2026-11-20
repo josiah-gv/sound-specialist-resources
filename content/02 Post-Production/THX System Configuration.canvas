@@ -1,0 +1,316 @@
+{
+  "nodes": [
+    {
+      "id": "grp-mtrx",
+      "type": "group",
+      "x": 1120,
+      "y": 240,
+      "width": 860,
+      "height": 840,
+      "color": "#ab47bc",
+      "label": "Avid MTRX"
+    },
+    {
+      "id": "node-wc-dist",
+      "type": "text",
+      "text": "### Word Clock Distributer",
+      "x": 1220,
+      "y": 0,
+      "width": 260,
+      "height": 110,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "node-ws1",
+      "type": "text",
+      "text": "### Workstation 1\n\nProTools\n\nDADman",
+      "x": 400,
+      "y": 280,
+      "width": 240,
+      "height": 150,
+      "color": "#9e9e9e"
+    },
+    {
+      "id": "node-hdx-1",
+      "type": "text",
+      "text": "### HDX Card\n\nDSP Processing and DigiLink I/O",
+      "x": 760,
+      "y": 280,
+      "width": 260,
+      "height": 150,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-hdx-2",
+      "type": "text",
+      "text": "### HDX Card\n\nDSP Processing and DigiLink I/O",
+      "x": 760,
+      "y": 510,
+      "width": 260,
+      "height": 150,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-hdx-3",
+      "type": "text",
+      "text": "### HDX Card\n\nDSP Processing and DigiLink I/O",
+      "x": 760,
+      "y": 720,
+      "width": 260,
+      "height": 150,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-wc-in",
+      "type": "text",
+      "text": "### Word Clock IN",
+      "x": 1220,
+      "y": 310,
+      "width": 260,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-digilink-port",
+      "type": "text",
+      "text": "### DigiLink Port",
+      "x": 1220,
+      "y": 460,
+      "width": 260,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-digilink-cards",
+      "type": "text",
+      "text": "### DigiLink Cards",
+      "x": 1220,
+      "y": 620,
+      "width": 260,
+      "height": 120
+    },
+    {
+      "id": "node-dante-port",
+      "type": "text",
+      "text": "### DANTE Port",
+      "x": 1620,
+      "y": 890,
+      "width": 260,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-ad-cards",
+      "type": "text",
+      "text": "### AD Cards\n\nMic Pre-amps and Analog to Digital converters",
+      "x": 1620,
+      "y": 300,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "id": "node-s6-console",
+      "type": "text",
+      "text": "# S6 Console",
+      "x": -240,
+      "y": 540,
+      "width": 200,
+      "height": 70,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-da-cards",
+      "type": "text",
+      "text": "### DA Cards\n\nDigital to Analog Converters",
+      "x": 1620,
+      "y": 640,
+      "width": 280,
+      "height": 150
+    },
+    {
+      "id": "node-patch-bay",
+      "type": "text",
+      "text": "### Patch Bay",
+      "x": 2640,
+      "y": 515,
+      "width": 160,
+      "height": 65,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-patch-out",
+      "type": "text",
+      "text": "### MTRX Outputs",
+      "x": 2100,
+      "y": 690,
+      "width": 280,
+      "height": 50,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-patch-in",
+      "type": "text",
+      "text": "### MTRX Inputs",
+      "x": 2100,
+      "y": 355,
+      "width": 280,
+      "height": 50,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-dante-net",
+      "type": "text",
+      "text": "### DANTE Network\n\nCrestron\n\nS6 Talkback",
+      "x": 2100,
+      "y": 858,
+      "width": 260,
+      "height": 145,
+      "color": "#4285f4"
+    },
+    {
+      "id": "node-ws2",
+      "type": "text",
+      "text": "### Workstation 2\n\nProTools",
+      "x": 400,
+      "y": 520,
+      "width": 240,
+      "height": 130,
+      "color": "#9e9e9e"
+    },
+    {
+      "id": "node-dubber",
+      "type": "text",
+      "text": "### Dubber\n\nProTools",
+      "x": 400,
+      "y": 730,
+      "width": 240,
+      "height": 130,
+      "color": "#9e9e9e"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-s6-ws1",
+      "fromNode": "node-s6-console",
+      "fromSide": "right",
+      "toNode": "node-ws1",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "label": "WSControl"
+    },
+    {
+      "id": "e-s6-ws2",
+      "fromNode": "node-s6-console",
+      "fromSide": "right",
+      "toNode": "node-ws2",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "label": "WSControl"
+    },
+    {
+      "id": "e-s6-dub",
+      "fromNode": "node-s6-console",
+      "fromSide": "right",
+      "toNode": "node-dubber",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "label": "WSControl"
+    },
+    {
+      "id": "e-ws1-hdx1",
+      "fromNode": "node-ws1",
+      "fromSide": "right",
+      "toNode": "node-hdx-1",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-ws2-hdx2",
+      "fromNode": "node-ws2",
+      "fromSide": "right",
+      "toNode": "node-hdx-2",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-dub-hdx3",
+      "fromNode": "node-dubber",
+      "fromSide": "right",
+      "toNode": "node-hdx-3",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-hdx1-dlport",
+      "fromNode": "node-hdx-1",
+      "fromSide": "right",
+      "toNode": "node-digilink-port",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-hdx2-dlcards",
+      "fromNode": "node-hdx-2",
+      "fromSide": "right",
+      "toNode": "node-digilink-cards",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-hdx3-dlcards",
+      "fromNode": "node-hdx-3",
+      "fromSide": "right",
+      "toNode": "node-digilink-cards",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-wc-dist-in",
+      "fromNode": "node-wc-dist",
+      "fromSide": "bottom",
+      "toNode": "node-wc-in",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-patchin-ad",
+      "fromNode": "node-patch-in",
+      "fromSide": "left",
+      "toNode": "node-ad-cards",
+      "toSide": "right"
+    },
+    {
+      "id": "e-da-patchout",
+      "fromNode": "node-da-cards",
+      "fromSide": "right",
+      "toNode": "node-patch-out",
+      "toSide": "left"
+    },
+    {
+      "id": "e-dante-port-net",
+      "fromNode": "node-dante-port",
+      "fromSide": "right",
+      "toNode": "node-dante-net",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-patchbay-in",
+      "fromNode": "node-patch-bay",
+      "fromSide": "top",
+      "toNode": "node-patch-in",
+      "toSide": "right"
+    },
+    {
+      "id": "e-patchout-bay",
+      "fromNode": "node-patch-out",
+      "fromSide": "right",
+      "toNode": "node-patch-bay",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {
+    "version": "1.0-1.0",
+    "frontmatter": {}
+  }
+}

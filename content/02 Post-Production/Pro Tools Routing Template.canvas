@@ -1,0 +1,862 @@
+{
+  "nodes": [
+    {
+      "id": "hdr-audio-tracks",
+      "type": "text",
+      "text": "## Audio Tracks\n\nSource audio goes on these tracks. Here is where you will edit audio clips and do channel specific effects.",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "hdr-vcas",
+      "type": "text",
+      "text": "## VCAs\n\nUse VCAs to automate groups of faders from scene to scene",
+      "x": 400,
+      "y": 0,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "hdr-fx-channels",
+      "type": "text",
+      "text": "## FX channels\n\nDedicated aux channels for reverb, futz, and other effects",
+      "x": 800,
+      "y": 0,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "hdr-group-buses",
+      "type": "text",
+      "text": "## Group Buses\n\nUse a bus to check levels of each group and apply group effects",
+      "x": 1220,
+      "y": 0,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "hdr-prints",
+      "type": "text",
+      "text": "## Prints\n\nUse as source for printing stems. Do not put any effects on these channels, as the signal will be recorded pre-inserts.",
+      "x": 1620,
+      "y": 0,
+      "width": 340,
+      "height": 170
+    },
+    {
+      "id": "hdr-sub-master",
+      "type": "text",
+      "text": "## Sub Master\n\nUse to check levels of overall mix and apply mix effects (Limiting, etc.)",
+      "x": 2080,
+      "y": 0,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "hdr-print-master",
+      "type": "text",
+      "text": "## Print Master\n\nUse as source for printing final mix and for monitoring. Do not put any effects on this channel, as the signal will be recorded pre-inserts.",
+      "x": 2540,
+      "y": 0,
+      "width": 360,
+      "height": 170
+    },
+    {
+      "id": "junc-dx-vca",
+      "type": "text",
+      "text": "",
+      "x": 555,
+      "y": 295,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "junc-dx-send",
+      "type": "text",
+      "text": "",
+      "x": 795,
+      "y": 295,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "node-dx-vca",
+      "type": "text",
+      "text": "### DX VCA",
+      "x": 420,
+      "y": 400,
+      "width": 280,
+      "height": 80,
+      "color": "#ef5350"
+    },
+    {
+      "id": "node-dx-bus",
+      "type": "text",
+      "text": "### DX Bus (7.1)",
+      "x": 1220,
+      "y": 260,
+      "width": 280,
+      "height": 80,
+      "color": "#ef5350"
+    },
+    {
+      "id": "node-dx-print",
+      "type": "text",
+      "text": "### DX Print (7.1)",
+      "x": 1620,
+      "y": 260,
+      "width": 280,
+      "height": 80,
+      "color": "#ef5350"
+    },
+    {
+      "id": "junc-fol-vca",
+      "type": "text",
+      "text": "",
+      "x": 555,
+      "y": 595,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "junc-fol-send",
+      "type": "text",
+      "text": "",
+      "x": 795,
+      "y": 595,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "node-fol-vca",
+      "type": "text",
+      "text": "### FOL VCA",
+      "x": 420,
+      "y": 700,
+      "width": 280,
+      "height": 80,
+      "color": "#ffca28"
+    },
+    {
+      "id": "node-fol-bus",
+      "type": "text",
+      "text": "### FOL Bus (7.1)",
+      "x": 1220,
+      "y": 560,
+      "width": 280,
+      "height": 80,
+      "color": "#ffca28"
+    },
+    {
+      "id": "node-fol-print",
+      "type": "text",
+      "text": "### FOL Print (7.1)",
+      "x": 1620,
+      "y": 560,
+      "width": 280,
+      "height": 80,
+      "color": "#ffca28"
+    },
+    {
+      "id": "junc-sfx-vca",
+      "type": "text",
+      "text": "",
+      "x": 555,
+      "y": 895,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "junc-sfx-send",
+      "type": "text",
+      "text": "",
+      "x": 795,
+      "y": 895,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "node-sfx-vca",
+      "type": "text",
+      "text": "### SFX VCA",
+      "x": 420,
+      "y": 1000,
+      "width": 280,
+      "height": 80,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "node-sfx-bus",
+      "type": "text",
+      "text": "### SFX Bus (7.1)",
+      "x": 1220,
+      "y": 860,
+      "width": 280,
+      "height": 80,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "node-sfx-print",
+      "type": "text",
+      "text": "### SFX Print (7.1)",
+      "x": 1620,
+      "y": 860,
+      "width": 280,
+      "height": 80,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "junc-bg-vca",
+      "type": "text",
+      "text": "",
+      "x": 555,
+      "y": 1195,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "junc-bg-send",
+      "type": "text",
+      "text": "",
+      "x": 795,
+      "y": 1195,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "node-bg-vca",
+      "type": "text",
+      "text": "### BG VCA",
+      "x": 420,
+      "y": 1300,
+      "width": 280,
+      "height": 80,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-bg-bus",
+      "type": "text",
+      "text": "### BG Bus (7.1)",
+      "x": 1220,
+      "y": 1160,
+      "width": 280,
+      "height": 80,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-bg-print",
+      "type": "text",
+      "text": "### BG Print (7.1)",
+      "x": 1620,
+      "y": 1160,
+      "width": 280,
+      "height": 80,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "junc-mx-vca",
+      "type": "text",
+      "text": "",
+      "x": 555,
+      "y": 1495,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "junc-mx-send",
+      "type": "text",
+      "text": "",
+      "x": 795,
+      "y": 1495,
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "node-mx-vca",
+      "type": "text",
+      "text": "### MX VCA",
+      "x": 420,
+      "y": 1600,
+      "width": 280,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-mx-bus",
+      "type": "text",
+      "text": "### MX Bus (7.1)",
+      "x": 1220,
+      "y": 1460,
+      "width": 280,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-mx-print",
+      "type": "text",
+      "text": "### MX Print (7.1)",
+      "x": 1620,
+      "y": 1460,
+      "width": 280,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-sub-master",
+      "type": "text",
+      "text": "### Sub Master (7.1)",
+      "x": 2080,
+      "y": 260,
+      "width": 300,
+      "height": 80,
+      "color": "#4285f4"
+    },
+    {
+      "id": "node-print-master",
+      "type": "text",
+      "text": "### Print Master (7.1)",
+      "x": 2540,
+      "y": 260,
+      "width": 300,
+      "height": 80,
+      "color": "#4285f4"
+    },
+    {
+      "id": "node-51-foldown",
+      "type": "text",
+      "text": "### 5.1 Foldown",
+      "x": 2920,
+      "y": 460,
+      "width": 260,
+      "height": 80,
+      "color": "#4285f4"
+    },
+    {
+      "id": "node-51-speakers",
+      "type": "text",
+      "text": "### 5.1 Speakers",
+      "x": 2920,
+      "y": 620,
+      "width": 260,
+      "height": 80,
+      "color": "#9e9e9e"
+    },
+    {
+      "id": "node-20-foldown",
+      "type": "text",
+      "text": "### 2.0 Foldown",
+      "x": 3260,
+      "y": 460,
+      "width": 280,
+      "height": 80,
+      "color": "#4285f4"
+    },
+    {
+      "id": "node-20-speakers",
+      "type": "text",
+      "text": "### 2.0 Speakers / Headphones",
+      "x": 3260,
+      "y": 620,
+      "width": 280,
+      "height": 100,
+      "color": "#9e9e9e"
+    },
+    {
+      "id": "node-dx-track",
+      "type": "text",
+      "text": "### Dialogue (DX)\n\nOn-set sound, wild lines, ADR, voiceover, etc.",
+      "x": 0,
+      "y": 225,
+      "width": 280,
+      "height": 150,
+      "color": "#ef5350"
+    },
+    {
+      "id": "node-fol-track",
+      "type": "text",
+      "text": "### Foley (FOL)\n\nFootsteps, props, cloth, body hits, etc.",
+      "x": 0,
+      "y": 530,
+      "width": 280,
+      "height": 140,
+      "color": "#ffca28"
+    },
+    {
+      "id": "node-sfx-track",
+      "type": "text",
+      "text": "### Sound Effects (SFX)\n\nHard FX, sound design, etc.",
+      "x": 0,
+      "y": 835,
+      "width": 280,
+      "height": 130,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "node-bg-track",
+      "type": "text",
+      "text": "### Backgrounds (BG)\n\nAmbient sounds, birds, wind, traffic, walla, etc.",
+      "x": 0,
+      "y": 1130,
+      "width": 280,
+      "height": 140,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-mx-track",
+      "type": "text",
+      "text": "### Music (MX)\n\ninstrument stems",
+      "x": 0,
+      "y": 1435,
+      "width": 280,
+      "height": 130,
+      "color": "#ff7043"
+    },
+    {
+      "id": "node-71-speakers",
+      "type": "text",
+      "text": "### 7.1 Speakers",
+      "x": 2560,
+      "y": 620,
+      "width": 260,
+      "height": 80,
+      "color": "#9e9e9e"
+    },
+    {
+      "id": "node-dx-fx",
+      "type": "text",
+      "text": "### DX FX",
+      "x": 900,
+      "y": 440,
+      "width": 260,
+      "height": 80,
+      "color": "#ef5350"
+    },
+    {
+      "id": "node-fol-fx",
+      "type": "text",
+      "text": "### FOL FX",
+      "x": 900,
+      "y": 740,
+      "width": 260,
+      "height": 80,
+      "color": "#ffca28"
+    },
+    {
+      "id": "node-sfx-fx",
+      "type": "text",
+      "text": "### SFX FX",
+      "x": 900,
+      "y": 1040,
+      "width": 260,
+      "height": 80,
+      "color": "#66bb6a"
+    },
+    {
+      "id": "node-bg-fx",
+      "type": "text",
+      "text": "### BG FX",
+      "x": 900,
+      "y": 1340,
+      "width": 260,
+      "height": 80,
+      "color": "#ab47bc"
+    },
+    {
+      "id": "node-mx-fx",
+      "type": "text",
+      "text": "### MX FX",
+      "x": 900,
+      "y": 1640,
+      "width": 260,
+      "height": 80,
+      "color": "#ff7043"
+    },
+    {
+      "id": "126fe239727264db",
+      "type": "text",
+      "text": "# [Download Pro Tools Template Here](https://drive.google.com/file/d/1Tit0VUHx_IPD2_kXUc1NtJf_rpypSsmI/view?usp=sharing)",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center",
+        "border": null
+      },
+      "x": 0,
+      "y": -160,
+      "width": 480,
+      "height": 80,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-dx-1",
+      "fromNode": "node-dx-track",
+      "fromSide": "right",
+      "toNode": "junc-dx-vca",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-dx-2",
+      "fromNode": "junc-dx-vca",
+      "fromSide": "right",
+      "toNode": "junc-dx-send",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-dx-3",
+      "fromNode": "junc-dx-send",
+      "fromSide": "right",
+      "toNode": "node-dx-bus",
+      "toSide": "left"
+    },
+    {
+      "id": "e-dx-vca",
+      "toFloating": false,
+      "fromFloating": false,
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "node-dx-vca",
+      "fromSide": "top",
+      "toNode": "junc-dx-vca",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-dx-send",
+      "fromNode": "junc-dx-send",
+      "fromSide": "bottom",
+      "toNode": "node-dx-fx",
+      "toSide": "left",
+      "label": "Sends"
+    },
+    {
+      "id": "e-dx-fx-bus",
+      "fromNode": "node-dx-fx",
+      "fromSide": "right",
+      "toNode": "node-dx-bus",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-dx-bus-print",
+      "fromNode": "node-dx-bus",
+      "fromSide": "right",
+      "toNode": "node-dx-print",
+      "toSide": "left"
+    },
+    {
+      "id": "e-dx-print-sub",
+      "fromNode": "node-dx-print",
+      "fromSide": "right",
+      "toNode": "node-sub-master",
+      "toSide": "left"
+    },
+    {
+      "id": "e-fol-1",
+      "fromNode": "node-fol-track",
+      "fromSide": "right",
+      "toNode": "junc-fol-vca",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-fol-2",
+      "fromNode": "junc-fol-vca",
+      "fromSide": "right",
+      "toNode": "junc-fol-send",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-fol-3",
+      "fromNode": "junc-fol-send",
+      "fromSide": "right",
+      "toNode": "node-fol-bus",
+      "toSide": "left"
+    },
+    {
+      "id": "e-fol-vca",
+      "fromFloating": false,
+      "toFloating": false,
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "node-fol-vca",
+      "fromSide": "top",
+      "toNode": "junc-fol-vca",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-fol-send",
+      "fromNode": "junc-fol-send",
+      "fromSide": "bottom",
+      "toNode": "node-fol-fx",
+      "toSide": "left",
+      "label": "Sends"
+    },
+    {
+      "id": "e-fol-fx-bus",
+      "fromNode": "node-fol-fx",
+      "fromSide": "right",
+      "toNode": "node-fol-bus",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-fol-bus-print",
+      "fromNode": "node-fol-bus",
+      "fromSide": "right",
+      "toNode": "node-fol-print",
+      "toSide": "left"
+    },
+    {
+      "id": "e-fol-print-sub",
+      "fromNode": "node-fol-print",
+      "fromSide": "right",
+      "toNode": "node-sub-master",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-sfx-1",
+      "fromNode": "node-sfx-track",
+      "fromSide": "right",
+      "toNode": "junc-sfx-vca",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-sfx-2",
+      "fromNode": "junc-sfx-vca",
+      "fromSide": "right",
+      "toNode": "junc-sfx-send",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-sfx-3",
+      "fromNode": "junc-sfx-send",
+      "fromSide": "right",
+      "toNode": "node-sfx-bus",
+      "toSide": "left"
+    },
+    {
+      "id": "e-sfx-vca",
+      "fromFloating": false,
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "node-sfx-vca",
+      "fromSide": "top",
+      "toNode": "junc-sfx-vca",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-sfx-send",
+      "fromNode": "junc-sfx-send",
+      "fromSide": "bottom",
+      "toNode": "node-sfx-fx",
+      "toSide": "left",
+      "label": "Sends"
+    },
+    {
+      "id": "e-sfx-fx-bus",
+      "fromNode": "node-sfx-fx",
+      "fromSide": "right",
+      "toNode": "node-sfx-bus",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-sfx-bus-print",
+      "fromNode": "node-sfx-bus",
+      "fromSide": "right",
+      "toNode": "node-sfx-print",
+      "toSide": "left"
+    },
+    {
+      "id": "e-sfx-print-sub",
+      "fromNode": "node-sfx-print",
+      "fromSide": "right",
+      "toNode": "node-sub-master",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-bg-1",
+      "fromNode": "node-bg-track",
+      "fromSide": "right",
+      "toNode": "junc-bg-vca",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-bg-2",
+      "fromNode": "junc-bg-vca",
+      "fromSide": "right",
+      "toNode": "junc-bg-send",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-bg-3",
+      "fromNode": "junc-bg-send",
+      "fromSide": "right",
+      "toNode": "node-bg-bus",
+      "toSide": "left"
+    },
+    {
+      "id": "e-bg-vca",
+      "toFloating": false,
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "node-bg-vca",
+      "fromSide": "top",
+      "toNode": "junc-bg-vca",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-bg-send",
+      "fromNode": "junc-bg-send",
+      "fromSide": "bottom",
+      "toNode": "node-bg-fx",
+      "toSide": "left",
+      "label": "Sends"
+    },
+    {
+      "id": "e-bg-fx-bus",
+      "fromNode": "node-bg-fx",
+      "fromSide": "right",
+      "toNode": "node-bg-bus",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-bg-bus-print",
+      "fromNode": "node-bg-bus",
+      "fromSide": "right",
+      "toNode": "node-bg-print",
+      "toSide": "left"
+    },
+    {
+      "id": "e-bg-print-sub",
+      "fromNode": "node-bg-print",
+      "fromSide": "right",
+      "toNode": "node-sub-master",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-mx-1",
+      "fromNode": "node-mx-track",
+      "fromSide": "right",
+      "toNode": "junc-mx-vca",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-mx-2",
+      "fromNode": "junc-mx-vca",
+      "fromSide": "right",
+      "toNode": "junc-mx-send",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-mx-3",
+      "fromNode": "junc-mx-send",
+      "fromSide": "right",
+      "toNode": "node-mx-bus",
+      "toSide": "left"
+    },
+    {
+      "id": "e-mx-vca",
+      "toFloating": false,
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "node-mx-vca",
+      "fromSide": "top",
+      "toNode": "junc-mx-vca",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "e-mx-send",
+      "fromNode": "junc-mx-send",
+      "fromSide": "bottom",
+      "toNode": "node-mx-fx",
+      "toSide": "left",
+      "label": "Sends"
+    },
+    {
+      "id": "e-mx-fx-bus",
+      "fromNode": "node-mx-fx",
+      "fromSide": "right",
+      "toNode": "node-mx-bus",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-mx-bus-print",
+      "fromNode": "node-mx-bus",
+      "fromSide": "right",
+      "toNode": "node-mx-print",
+      "toSide": "left"
+    },
+    {
+      "id": "e-mx-print-sub",
+      "fromNode": "node-mx-print",
+      "fromSide": "right",
+      "toNode": "node-sub-master",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-sub-printmaster",
+      "fromNode": "node-sub-master",
+      "fromSide": "right",
+      "toNode": "node-print-master",
+      "toSide": "left"
+    },
+    {
+      "id": "e-pm-71",
+      "fromNode": "node-print-master",
+      "fromSide": "bottom",
+      "toNode": "node-71-speakers",
+      "toSide": "top"
+    },
+    {
+      "id": "e-pm-51",
+      "fromNode": "node-print-master",
+      "fromSide": "right",
+      "toNode": "node-51-foldown",
+      "toSide": "top"
+    },
+    {
+      "id": "e-51-spk",
+      "fromNode": "node-51-foldown",
+      "fromSide": "bottom",
+      "toNode": "node-51-speakers",
+      "toSide": "top"
+    },
+    {
+      "id": "e-pm-20",
+      "fromNode": "node-print-master",
+      "fromSide": "right",
+      "toNode": "node-20-foldown",
+      "toSide": "top"
+    },
+    {
+      "id": "e-20-spk",
+      "fromNode": "node-20-foldown",
+      "fromSide": "bottom",
+      "toNode": "node-20-speakers",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {
+    "version": "1.0-1.0",
+    "frontmatter": {}
+  }
+}
