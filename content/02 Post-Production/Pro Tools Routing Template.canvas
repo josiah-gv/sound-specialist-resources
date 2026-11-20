@@ -3,7 +3,7 @@
     {
       "id": "hdr-audio-tracks",
       "type": "text",
-      "text": "## Audio Tracks\n\nSource audio goes on these tracks. Here is where you will edit audio clips and do channel specific effects.",
+      "text": "## Audio Tracks\nSource audio goes on these tracks. Here is where you will edit audio clips and do channel specific effects.",
       "x": 0,
       "y": 0,
       "width": 320,
@@ -12,7 +12,7 @@
     {
       "id": "hdr-vcas",
       "type": "text",
-      "text": "## VCAs\n\nUse VCAs to automate groups of faders from scene to scene",
+      "text": "## VCAs\nUse VCAs to automate groups of faders from scene to scene",
       "x": 400,
       "y": 0,
       "width": 320,
@@ -21,7 +21,7 @@
     {
       "id": "hdr-fx-channels",
       "type": "text",
-      "text": "## FX channels\n\nDedicated aux channels for reverb, futz, and other effects",
+      "text": "## FX channels\nDedicated aux channels for reverb, futz, and other effects",
       "x": 800,
       "y": 0,
       "width": 320,
@@ -30,7 +30,7 @@
     {
       "id": "hdr-group-buses",
       "type": "text",
-      "text": "## Group Buses\n\nUse a bus to check levels of each group and apply group effects",
+      "text": "## Group Buses\nUse a bus to check levels of each group and apply group effects",
       "x": 1220,
       "y": 0,
       "width": 320,
@@ -39,7 +39,7 @@
     {
       "id": "hdr-prints",
       "type": "text",
-      "text": "## Prints\n\nUse as source for printing stems. Do not put any effects on these channels, as the signal will be recorded pre-inserts.",
+      "text": "## Prints\nUse as source for printing stems. Do not put any effects on these channels, as the signal will be recorded pre-inserts.",
       "x": 1620,
       "y": 0,
       "width": 340,
@@ -48,7 +48,7 @@
     {
       "id": "hdr-sub-master",
       "type": "text",
-      "text": "## Sub Master\n\nUse to check levels of overall mix and apply mix effects (Limiting, etc.)",
+      "text": "## Sub Master\nUse to check levels of overall mix and apply mix effects (Limiting, etc.)",
       "x": 2080,
       "y": 0,
       "width": 320,
@@ -57,7 +57,7 @@
     {
       "id": "hdr-print-master",
       "type": "text",
-      "text": "## Print Master\n\nUse as source for printing final mix and for monitoring. Do not put any effects on this channel, as the signal will be recorded pre-inserts.",
+      "text": "## Print Master\nUse as source for printing final mix and for monitoring. Do not put any effects on this channel, as the signal will be recorded pre-inserts.",
       "x": 2540,
       "y": 0,
       "width": 360,
@@ -366,7 +366,7 @@
     {
       "id": "node-dx-track",
       "type": "text",
-      "text": "### Dialogue (DX)\n\nOn-set sound, wild lines, ADR, voiceover, etc.",
+      "text": "### Dialogue (DX)\nOn-set sound, wild lines, ADR, voiceover, etc.",
       "x": 0,
       "y": 225,
       "width": 280,
@@ -376,7 +376,7 @@
     {
       "id": "node-fol-track",
       "type": "text",
-      "text": "### Foley (FOL)\n\nFootsteps, props, cloth, body hits, etc.",
+      "text": "### Foley (FOL)\nFootsteps, props, cloth, body hits, etc.",
       "x": 0,
       "y": 530,
       "width": 280,
@@ -386,7 +386,7 @@
     {
       "id": "node-sfx-track",
       "type": "text",
-      "text": "### Sound Effects (SFX)\n\nHard FX, sound design, etc.",
+      "text": "### Sound Effects (SFX)\nHard FX, sound design, etc.",
       "x": 0,
       "y": 835,
       "width": 280,
@@ -396,7 +396,7 @@
     {
       "id": "node-bg-track",
       "type": "text",
-      "text": "### Backgrounds (BG)\n\nAmbient sounds, birds, wind, traffic, walla, etc.",
+      "text": "### Backgrounds (BG)\nAmbient sounds, birds, wind, traffic, walla, etc.",
       "x": 0,
       "y": 1130,
       "width": 280,
@@ -406,7 +406,7 @@
     {
       "id": "node-mx-track",
       "type": "text",
-      "text": "### Music (MX)\n\ninstrument stems",
+      "text": "### Music (MX)\ninstrument stems",
       "x": 0,
       "y": 1435,
       "width": 280,
@@ -483,9 +483,24 @@
         "border": null
       },
       "x": 0,
-      "y": -160,
+      "y": -180,
       "width": 480,
-      "height": 80,
+      "height": 100,
+      "color": "6"
+    },
+    {
+      "id": "90b836127d3247ec",
+      "type": "text",
+      "text": "# [Video Explaination](https://youtu.be/yyGQJrJSy-c?si=utJuqpiK3hG-IBsg&t=168)\n",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": "center",
+        "border": null
+      },
+      "x": 555,
+      "y": -180,
+      "width": 365,
+      "height": 100,
       "color": "6"
     }
   ],
